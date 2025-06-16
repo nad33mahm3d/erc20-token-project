@@ -1,0 +1,20 @@
+{
+  "name": "nad-token",
+  "version": "1.0.0",
+  "description": "NAD Token with staking functionality",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy:testnet": "hardhat run scripts/deploy.js --network testnet",
+    "deploy:polygon": "hardhat run scripts/deploy.js --network polygon"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.3.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0"
+  }
+}
